@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background: #f9fafc;
+  padding: 10px;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
 li {
   list-style-type: none;
   padding: 5px;
+  color: #000;
 }
 
 a {
