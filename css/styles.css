@@ -3,11 +3,16 @@ body {
   background: #f9fafc;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+}
+
 li {
   list-style-type: none;
 }
 
-a:link {
+a {
   color: #69696a;
   text-decoration: none;
 }
@@ -15,7 +20,9 @@ a:link {
 button {
   background-color: #000;
   color: #fff;
-  /* font-family: "Open Sans", sans-serif; */
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 p {
