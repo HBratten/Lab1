@@ -1,0 +1,19 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
+  color: #69696a;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+}
+
+p {
+  border-left-style: solid;
+  border-color: #69696a;
+  color: #69696a;
+}
