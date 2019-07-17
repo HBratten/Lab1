@@ -50,10 +50,12 @@ p {
     display: flex;
     flex-direction: column;
     width: 50%;
+    height: 100vh;
   }
-  /* .scrollbutton {
-    display: flex;
-    align-items: flex-end;
-  /* } 
-  */ Needs to be position fixed /*
+  .scrollbutton {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate (-50%, -50%);
+  }
 }
