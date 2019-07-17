@@ -34,22 +34,26 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-  .navbar {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  ul {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-end; */
+    align-items: center;
   }
-  li {
-    display: flex;
-    justify-content: flex-end;
-  }
+
   main {
     display: flex;
     flex-direction: column;
     width: 50%;
   }
-  .scrollbutton {
+  /* .scrollbutton {
     display: flex;
-    justify-content: flex-end;
-  }
+    align-items: flex-end;
+  /* } 
+  */ Needs to be position fixed /*
 }
