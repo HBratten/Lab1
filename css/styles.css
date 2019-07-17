@@ -2,11 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background: #f9fafc;
   padding: 10px;
-}
-
-header {
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
 }
 
 li {
@@ -35,4 +31,25 @@ p {
   border-color: #69696a;
   color: #69696a;
   padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+  }
+  li {
+    display: flex;
+    justify-content: flex-end;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .scrollbutton {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
